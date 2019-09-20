@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:07:56 +0200] "GET / HTTP/1.1" 200 91 http-bio-8080-exec-1 82
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:07:56 +0200] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 15
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:16:16 +0200] "GET / HTTP/1.1" 200 17 http-bio-8080-exec-1 109
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:24:04 +0200] "GET / HTTP/1.1" 200 247 http-bio-8080-exec-1 1537
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:25:11 +0200] "GET /login.do HTTP/1.1" 200 247 http-bio-8080-exec-3 6
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:32:56 +0200] "GET /login.do HTTP/1.1" 200 268 http-bio-8080-exec-5 207
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:33:21 +0200] "GET /login.do?name=zgreg HTTP/1.1" 200 273 http-bio-8080-exec-6 5
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:43:47 +0200] "GET /login.do?name=zgreg&password=thepnx78 HTTP/1.1" 200 326 http-bio-8080-exec-8 109
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:46:59 +0200] "GET /login.do?name=zgreg&password=thepnx78 HTTP/1.1" 200 408 http-bio-8080-exec-10 112
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:47:53 +0200] "GET /login.do?name=zgreg&password=thepnx78 HTTP/1.1" 200 435 http-bio-8080-exec-10 86
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:48:27 +0200] "GET /login.do?name=gregrre HTTP/1.1" 200 429 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:48:36 +0200] "GET /login.do?name=papa HTTP/1.1" 200 426 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:50:15 +0200] "GET /login.do?name= HTTP/1.1" 200 436 http-bio-8080-exec-5 84
+0:0:0:0:0:0:0:1 - - [13/Sep/2019:15:50:28 +0200] "POST /login.do HTTP/1.1" 405 1067 http-bio-8080-exec-5 5

@@ -1,0 +1,9 @@
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/login/LoginServlet.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/todo/DeleteTodoServlet.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/logout/LogoutServlet.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/todo/Todo.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/todo/TodoService.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/todo/AddTodoServlet.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/login/LoginService.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/todo/ListTodoServlet.java
+/home/gregoire/dev/workspaceTest/first-web-application/src/main/java/com/in28minutes/filter/LoginRequiredFilter.java
