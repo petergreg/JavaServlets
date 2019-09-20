@@ -2,23 +2,36 @@ package com.in28minutes.todo;
 
 public class Todo {
 
-	public Todo(String name) {
+	public Todo(String name, String category) {
 		this.name = name;
+		this.category = category;
+
 	}
 	
 	public String name;
+	public String category;
 
-	public String getName() {
-		return name;
+
+	public String getCategory() {
+		return category;
+	}
+
+	public void setCategory(String category) {
+		this.category = category;
 	}
 
 	public void setName(String name) {
 		this.name = name;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+
 	@Override
 	public String toString() {
-		return "Todo [name=" + name + "]";
+		return "Todo [name=" + name + ", category=" + category + "]";
 	}
 
 	@Override

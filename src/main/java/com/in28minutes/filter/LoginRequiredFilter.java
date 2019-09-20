@@ -34,10 +34,9 @@ public class LoginRequiredFilter implements Filter{
 
 		if(request.getSession().getAttribute("name") != null){
 			chain.doFilter(servletRequest, servletResponse);
-			System.out.println("Already logged in !");
 		}else {
 			request.getRequestDispatcher("/login.do").forward(servletRequest, servletResponse);
-			System.out.println("Not logged in !");
+			System.out.println("Not logged in");
 		}
 
 		

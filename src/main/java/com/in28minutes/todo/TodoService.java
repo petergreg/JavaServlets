@@ -10,9 +10,9 @@ public class TodoService {
 	
 	private static List<Todo> todos = new ArrayList<Todo>();
 	static {
-		todos.add(new Todo("Learn Pyhton"));
-		todos.add(new Todo("Learn Java 8 differencies"));
-		todos.add(new Todo("Learn everything"));
+		todos.add(new Todo("Learn Pyhton", "Study"));
+		todos.add(new Todo("Learn Java 8 differencies", "Study"));
+		todos.add(new Todo("Learn everything", "Study"));
 	}
 	
 	public List<Todo> retrieveTodos(){
